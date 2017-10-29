@@ -17,7 +17,7 @@ int main(int argc, string argv[])
     // check 2nd argument
     // printf("%s\n", argv[1]);
 
-    // convert 2nd aegument to an int no higher than 25
+    // convert 2nd argument to an int no higher than 25
     int k = (atoi(argv[1])) % 26;
 
     printf("plaintext:");
